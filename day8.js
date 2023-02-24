@@ -102,10 +102,10 @@
 //     k++ //2  3
 // }
 
-let k=1
-while(k<=5){ 
+let k = 1
+while (k <= 5) {
     console.log(k)
-    if(k==3){ 
+    if (k == 3) {
         break
     }
     k++
