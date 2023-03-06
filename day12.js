@@ -47,25 +47,94 @@
 
 // 5 chance ==> for loop
 
+// let randomNumber = Math.floor(Math.random() * 5) + 1
+// console.log(randomNumber)
+// for (let i = 0; i <= 5; i++) {
+//     let userInput = Number(prompt("Enter any number between 1-5"))
+//     if (randomNumber === userInput) {
+//         console.log("Your guess is correct!!!!")
+//     }
+//     else {
+//         console.log("Your guess is incorrect!!!!")
+//     }
+
+// }
+
+//Problem 4(without break)
+//1-5
+// let randomNumber = Math.floor(Math.random() * 5) + 1
+// console.log(randomNumber)
+// for (let i = 1; i <= 5; i++) {
+//     let userInput = Number(prompt('Please enter no between 1-5'))
+//     if (randomNumber === userInput) {
+//         console.log('Your guess is correct....')
+//     }
+//     else {
+//         console.log('Your guess is incorrect')
+//     }
+
+// }
+
+//===============================================================
+//Problem 4(with break)
+
+// let randomNumber = Math.floor(Math.random() * 5) + 1
+// console.log(randomNumber)
+// for (let i = 1; i <= 5; i++) {
+//     let userInput = Number(prompt('Please enter no between 1-5'))
+//     if (randomNumber === userInput) {
+//         console.log('Your guess is correct....')
+//         break;
+//     }
+//     else {
+//         console.log('Your guess is incorrect')
+//     }
+
+// }
+
+
+//=================================================================
+
+//duration is unknown (while loop)
+
+
 let randomNumber = Math.floor(Math.random() * 5) + 1
-console.log(randomNumber)
-for (let i = 0; i <= 5; i++) {
-    let userInput = Number(prompt("Enter any number between 1-5"))
-    if (randomNumber === userInput) {
-        console.log("Your guess is correct!!!!")
+console.log(randomNumber) //4
+let userInput //undefined //3 //4
+while (randomNumber != userInput) { //4!=undefined ==>true  //4!=3 //4!=4
+    userInput = Number(prompt('please enter number between 1-5')) //3 //4
+    if (randomNumber === userInput) { //4 ===3 //4===4
+        console.log('Your guess is correct....')
     }
     else {
-        console.log("Your guess is incorrect!!!!")
+        console.log('Your guess is incorrect')
     }
-
 }
 
 
 
+//console.log(4!="undefined") //true
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// let a
+// console.log(a)//undefined
 
 
 
