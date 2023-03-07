@@ -98,22 +98,92 @@
 //duration is unknown (while loop)
 
 
-let randomNumber = Math.floor(Math.random() * 5) + 1
-console.log(randomNumber) //4
-let userInput //undefined //3 //4
-while (randomNumber != userInput) { //4!=undefined ==>true  //4!=3 //4!=4
-    userInput = Number(prompt('please enter number between 1-5')) //3 //4
-    if (randomNumber === userInput) { //4 ===3 //4===4
-        console.log('Your guess is correct....')
-    }
-    else {
-        console.log('Your guess is incorrect')
-    }
-}
+// let randomNumber = Math.floor(Math.random() * 5) + 1
+// console.log(randomNumber) //4
+// let userInput //undefined //3 //4
+// while (randomNumber != userInput) { //4!=undefined ==>true  //4!=3 //4!=4
+//     userInput = Number(prompt('please enter number between 1-5')) //3 //4
+//     if (randomNumber === userInput) { //4 ===3 //4===4
+//         console.log('Your guess is correct....')
+//     }
+//     else {
+//         console.log('Your guess is incorrect')
+//     }
+// }
 
 
 
 //console.log(4!="undefined") //true
+
+//=========================================================================
+
+
+//while loop
+// let randomNo = Math.floor(Math.random() * 5) + 1 //3
+// let userInput //undefined 2 3
+// while (randomNo != userInput) { //3!=undefined => true  3!=2  3!=3
+//     userInput = Number(prompt('enter ant no between 1-5')) //update 2 3
+//     if (randomNo === userInput) {//3===2  3===3
+//         console.log('Guess is correct...')
+//     } else {
+//         console.log('Guess is incorrect..')
+//     }
+// }
+
+
+// let randomNo = Math.floor(Math.random() * 5) + 1  //5
+// console.log(randomNo)
+// let userInput //undefined 2 3
+// while (randomNo != userInput) { 
+//     userInput = Number(prompt('enter ant no between 1-5')) 
+//     if (randomNo === userInput) {
+//         console.log('Guess is correct...')
+//         break;
+//     } else {
+//         console.log('Guess is incorrect..')
+//     }
+// }
+
+//normal single chance
+//5 chance for loop=> for loop break
+//infinite while => while with break
+
+// let randomNo = Math.floor(Math.random() * 5) + 1  //3
+// console.log(randomNo) 
+// let userInput = Number(prompt('enter ant no between 1-5'))// 3
+// while (randomNo != userInput) { ///3!=3
+//     userInput = Number(prompt('enter any no between 1-5'))
+//     if (randomNo === userInput) { 
+//         console.log('Guess is correct...')
+//         break;
+//     } else {
+//         console.log('Guess is incorrect..')
+//     }
+
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
