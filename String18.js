@@ -203,22 +203,33 @@ let city1 = "Pune"
 // console.log(a+b+c) //mayuri1020
 
 
-let firstName="mayuri"
-let lastName="katwe"
+// let firstName="mayuri"
+// let lastName="katwe"
 
-//my firstName is mayuri and my lastname is katwe
-console.log("my firstname is"+firstName+"and my lastname is"+lastName)
+// //my firstName is mayuri and my lastname is katwe
+// console.log("my firstname is"+firstName+"and my lastname is"+lastName)
 
-//my firstname ismayuriand my lastname iskatwe
+// //my firstname ismayuriand my lastname iskatwe
 
-//string interpolation
-console.log(`My firstname is ${firstName} and my lastname is ${lastName}`)
+// //string interpolation
+// console.log(`My firstname is ${firstName} and my lastname is ${lastName}`)
 
-console.log(typeof `${2+2}`)
+// console.log(typeof `${2+2}`)
 
 
-console.log('20')
-console.log(20)
+// console.log('20')
+// console.log(20)
+
+
+// let firstName = "mayuriRoa"
+// //a e i o u
+// let count = 0
+// for (let i = 0; i < firstName.length; i++) {
+//     if (firstName[i] == 'a' || firstName[i] == 'e' || firstName[i] == 'i' || firstName[i] == 'o' || firstName[i] == 'u') {
+//         count = count + 1
+//     }
+// }
+// console.log(count)
 
 
 
