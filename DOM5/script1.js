@@ -18,14 +18,30 @@ addMebtn.addEventListener('click', function () {
 
 //Step4
 
-ulList.addEventListener('click',function(event){
-    //console.log(event.target)
-    if(event.target.tagName=="BUTTON"){
-       if(event.target.className=="remove") {
-        let liEle=event.target.parentElement
-        
-
-       }
+ulList.addEventListener('click', function (event) {
+    // console.log(event.target.tagName)
+    if (event.target.tagName == "BUTTON") {
+        if (event.target.className == "remove") {
+            let liEle = event.target.parentElement
+            let ulEle = liEle.parentElement
+            ulEle.removeChild(liEle)//removed li from ullist
+        }
+        else if (event.target.className == "up") {
+            let liEle = event.target.parentElement
+            let prevLi = liEle.previousElementSibling
+            let ulEle = liEle.parentElement
+            if (prevLi) {
+                ulEle.insertBefore(liEle, prevLi)
+            }
+        }
+        else if (event.target.className == "down") {
+            let liEle = event.target.parentElement //li
+            let nextLi = liEle.nextElementSibling //nextli
+            let ulEle = liEle.parentElement
+            if(nextLi){
+                ulEle.insertBefore(nextLi, liEle)
+            }
+        }
     }
 
 })
