@@ -101,6 +101,3 @@ console.log(mayuri.hasOwnProperty("salary"))//false
 
 
 
-
-
-
